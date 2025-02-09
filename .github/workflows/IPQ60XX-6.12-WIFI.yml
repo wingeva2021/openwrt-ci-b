@@ -1,4 +1,4 @@
-name: IPQ60XX-6.12-WIFI
+name: IPQ60XX-6.12-Main
 
 on:
   workflow_dispatch:
@@ -170,3 +170,4 @@ jobs:
           - 固件内核版本：${{ env.VERSION_KERNEL }}
           - 固件编译前最后一次➦[主源码](${{ env.REPO_URL }})更新记录
           - ${{ env.VERSION_INFO }}${{ env.VERSION_INFO }}
+
